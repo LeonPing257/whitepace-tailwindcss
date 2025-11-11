@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@theme{ 
+    /* couleurs*/
+    --color-blue-50:#c4DEFD;
+    --Color-blue-100:#4F9CF9;
+    --color-blue-200:#043873;
+    --color-blue-300:#111519;
+    --color-yellow-50:#FFE492;
+    --color-white:#FFFFFF;
+
+    /*breakpoint*/
+
+    --breakpoint-sm: 320px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1152px;
+    --breakpoint-xl: 1440px;
+    --breakpoint-2xl: 1920px;
+}

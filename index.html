@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--header section-->
+    <header class="fixed top-0 bg-[#043771] w-full h-32 flex justify-center items-center">
+        <div class="w-[90%]">
+            <div class="flex justify-between items-center">
+                <div class=""> <img src="./foto/Logo.png" alt="logo"></div>
+                <nav class="flex justify-between items-center ">
+                    <ul class=" flex justify-between items-center  gap-x-10 ">
+                        <li href="#" class="text-gray-400 hover:text-[#FFE492] flex max-md:hidden ">Products<img
+                                src="./foto/Down Arrow.png"></li>
+                        <li href="#" class="text-gray-400 hover:text-[#FFE492] flex max-md:hidden">Solutions<img
+                                src="./foto/Down Arrow.png"></li>
+                        <li href="#" class="text-gray-400 hover:text-[#FFE492] flex max-md:hidden">Resources<img
+                                src="./foto/Down Arrow.png"></li>
+                        <li href="#" class="text-gray-400 hover:text-[#FFE492] flex max-md:hidden">Pricings<img
+                                src="./foto/Down Arrow.png"></li>
+
+                        <button
+                            class="bg-[#FFE492] rounded-lg text-black px-4 py-1 font-medium max-md:hidden transition duration-300 ease-in-out transform hover:scale-105 ">Login</button>
+                        <button
+                            class="bg-[#4F9CF9] rounded-lg text-black px-4 py-1 font-medium max-md:hidden transition duration-300 ease-in-out transform hover:scale-105">Try
+                            whitespace free →</button>
+
+                        <button
+                            class=" rounded-lg hidden max-md:block transition duration-300 ease-in-out transform hover:scale-105"><img
+                                src="./foto/Hum-menu.png"></button>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--hero section-->
+    <section class="mt-32 bg-[#043771] w-full flex justify-center items-center bg-no-repeat "
+        style="background-image:url('./foto/bg-header.png');">
+        <div class=" grid  grid-cols-2  justify-between w-[90%] gap-8 mx-auto  mb-10 max-md:grid-cols-1 max-md:p-30">
+            <div class="flex justify-between flex-col max-md:justify-between max-md:gap-7  ">
+                <h1 class="text-5xl text-white font-bold ">Get more done with whitepace </h1>
+                <p class=" text-white">Project manager software that enable your teams to collaborate,plan,
+                    analyse and manager every tasks
+                </p>
+                <div>
+                    <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                transition duration-300 ease-in-out transform hover:scale-105">Try whitespace free →</button>
+                </div>
+            </div>
+            <div class="w-[100%] h-[250px] bg-[#c3ddfc]"></div>
+
+        </div>
+    </section>
+
+    <!--projectM section-->
+    <section class="bg-[#FFFFFF] flex justify-center items-center mt-10 p-px w-[100%] bg-no-repeat"
+        style="background-image: url('./foto/backgound-1.png');">
+        <div class=" grid grid-cols-2 gap-4 p-6 w-[90%]  mt-7 max-md:grid-cols-1">
+            <div class="flex justify-between items-center flex-col  p-30 max-md:p-7 max-md:grid-cols-1 max-md:gap-7 ">
+                <h1 class="text-5xl text-black font-bold">
+                    Project <br><span style="background-image: url('./foto/title-underline.png')"> management</span>
+                </h1><br>
+                <p class="text-black mb-16"> Image,video, pdfs and audio file are supported . Create math
+                    experssions<br>
+                    and diagrams directly from the app. Take photo the mobile app and save them <br>
+                    to a note.
+                </p>
+                <div>
+                    <button class="bg-[#4F9CF9] px-6 py-3  rounded-lg font-medium text-black 
+                 transition duration-300 ease-in-out transform hover:scale-105">Get started →
+                    </button>
+                </div>
+            </div>
+            <div class="w-[90%] h-[90%] bg-[#c3ddfc] justify-center items-right p-30">
+
+            </div>
+            <div class="justify-center items-center w-[90%] p-30"> <img src="./foto/Work Together Image.png" alt="">
+            </div>
+            <div
+                class=" flex flex-col justify-between items-center w-[90%] p-30 max-md:p-7  max-md:grid-cols-1 max-md:gap-7 ">
+                <h1 class="text-5xl text-black font-bold mt-18">Work <span
+                        style="background-image: url('./foto/title-underline.png')">together</span></h1><br>
+                <p class="text-black">With whitepace, share your note with your colleagues and collabore on them <br>
+                    you can also publish a note to the internet and share the URL with others.
+                </p>
+                <div>
+                    <button class="bg-[#4F9CF9] rounded-lg text-black px-6 py-3 font-medium  justify-center items-center
+                 transition duration-300 ease-in-out transform hover:scale-105 ">try it now →
+
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--extension section-->
+    <section class=" mt-10 bg-[#043771] w-full flex justify-center items-center text-white ">
+        <div
+            class="grid  grid-cols-2  justify-between w-[90%] gap-8 mx-auto p-30 max-md:grid-cols-1 max-md:p-7 max-md:gap-7 ">
+            <div class=" flex justify-between flex-col max-md:gap-7">
+                <h2 class="text-5xl text-white font-bold">Use as <span
+                        style="background-image: url('./foto/title-underline.png')">Extension</span></h2>
+                <p class=" text-white">Use the web clipper extension, available on Chrome and Firefox, to save web pages
+                    or take
+                    screenshots as notes.
+                </p>
+                <div>
+                    <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                transition duration-300 ease-in-out transform hover:scale-105">Lets'Go → </button>
+                </div>
+            </div>
+            <div class="w-[100%] h-[250px] bg-[#c3ddfc]"></div>
+        </div>
+
+    </section>
+
+    <!-- custom section -->
+    <section class=" mt-10 bg-[#ffffff] w-full flex justify-center items-center text-black ">
+        <div class="grid  grid-cols-2  justify-between w-[90%] gap-8 mx-auto p-30 max-md:grid-cols-1 max-md:p-7   ">
+            <div class="w-[100%] h-[250px] bg-[#c3ddfc]"></div>
+            <div class=" flex justify-between flex-col max-md:gap-7">
+                <h2 class="text-5xl text-black font-bold">Customise it to<br><span
+                        style="background-image: url('./foto/title-underline.png')">Your Needs</span></h2>
+                <p class=" text-black">Customise the app with plugins, custom themes and multiple text editors (Rich
+                    Text or Markdown).
+                    Or create your own scripts and plugins using the Extension API.
+                </p>
+                <div>
+                    <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                transition duration-300 ease-in-out transform hover:scale-105">Lets'Go → </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Plan section -->
+    <section class=" bg-white">
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="text-center mb-20">
+                <h2 class="text-6xl font-bold text-black mb-8">Choose <span
+                        style="background-image: url('./foto/title-underline.png')">Your Plan</span></h2>
+                <p class="text-lg text-black max-w-4xl mx-auto">Whether you want to get organized, keep your personal
+                    life on track,
+                    or boost workplace productivity, Evernote has the right plan for you.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Plan, personnal, organisation -->
+    <section class=" bg-white">
+        <div class="grid grid-cols-3 gap-8 max-w-6xl mx-auto max-md:flex max-md:overflow-x-scroll">
+
+            <div
+                class="bg-white border border-[#FFE492] rounded-lg max-md:shrink-0 w-[400px] p-10 transition duration-300 ease-in-out transform hover:scale-105">
+                <h3 class="text-2xl font-bold text-black mb-3">Free</h3>
+                <div class="text-4xl font-bold text-black mb-3">$0</div>
+                <p class="text-lg text-black mb-8">Capture ideas and find them quickly</p>
+                <ul class="space-y-4 mb-10">
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Sync unlimited devices
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5  mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        10 GB monthly uploads
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        200 MB max. note size
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Customize Home dashboard and access extra widgets
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Connect primary Google Calendar account
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Add due dates, reminders, and notifications to your tasks
+                    </li>
+                </ul>
+                <a href="#"
+                    class="block w-full text-center py-4 border-2 border-[#FFE492] bg-white text-gray-900 rounded-lg font-medium">Get
+                    Started
+                </a>
+            </div>
+
+            <!-- Personal Plan (Featured) -->
+            <div
+                class="bg-[#043771] text-white rounded-lg p-10 max-md:shrink-0 w-[400px] transition duration-300 ease-in-out transform hover:scale-105">
+                <h3 class="text-2xl text-white mb-3">Personal</h3>
+                <div class="text-4xl  mb-3 text-[#FFE492]">$11.99</div>
+                <p class="text-lg text-text-light mb-8">Keep home and family on track</p>
+                <ul class="space-y-4 mb-10">
+                    <li class="flex items-center">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success.png');"></div>
+                        Sync unlimited devices
+                    </li>
+                    <li class="flex items-center">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success.png');"></div>
+                        10 GB monthly uploads
+                    </li>
+                    <li class="flex items-center">
+                        <div class="w-5 h-5  mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success.png');"></div>
+                        200 MB max. note size
+                    </li>
+                    <li class="flex items-center">
+                        <div class="w-5 h-5  mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success.png');"></div>
+                        Customize Home dashboard and access extra widgets
+                    </li>
+                    <li class="flex items-center">
+                        <div class="w-5 h-5  mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success.png');"></div>
+                        Connect primary Google Calendar account
+                    </li>
+                    <li class="flex items-center">
+                        <div class="w-5 h-5  mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success.png');"></div>
+                        Add due dates, reminders, and notifications to your tasks
+                    </li>
+                </ul>
+                <button class="bg-[#4F9CF9] rounded-lg font-medium text-white px-4 py-2 flex w-[50%]
+                transition duration-300 ease-in-out transform hover:scale-105">Get started</button>
+            </div>
+
+            <!-- Organization Plan -->
+            <div
+                class="bg-white border border-[#FFE492] rounded-lg max-md:shrink-0 w-[400px] p-10  transition duration-300 ease-in-out transform hover:scale-105">
+                <h3 class="text-2xl font-bold text-black mb-3">Organisation</h3>
+                <div class="text-4xl font-bold text-black mb-3">$49.99</div>
+                <p class="text-lg text-black mb-8">Capture ideas and find them quickly</p>
+                <ul class="space-y-4 mb-10">
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Sync unlimited devices
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5  mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        10 GB monthly uploads
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        200 MB max. note size
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Customize Home dashboard and access extra widgets
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Connect primary Google Calendar account
+                    </li>
+                    <li class="flex items-center text-black">
+                        <div class="w-5 h-5 mr-4 flex-shrink-0"
+                            style="background-image: url('./foto/Icon-success-black.png');"></div>
+                        Add due dates, reminders, and notifications to your tasks
+                    </li>
+                </ul>
+                <div>
+                    <a href="#"
+                        class="block w-full text-center py-4 border-2 border-[#FFE492] bg-white text-gray-900 rounded-lg font-medium">Get
+                        Started
+                    </a>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Work Everywhere Section -->
+    <section class="bg-[#043771] w-full text-white py-15 text-center mt-20 bg-no-repeat "
+        style="background-image:url('./foto/backgound-1.png');">
+        <div class="max-w-7xl mx-auto px-5 max-md:text-left ">
+            <h2 class="text-6xl font-bold mb-6">Your work, everywhere <span
+                    style="background-image: url('./foto/title-underline-blue.png')">you are</span></h2>
+            <p class="text-lg leading-relaxed text-text-light mb-16 max-w-5xl mx-auto">Access your notes from your
+                computer, phone or tablet by synchronising with various services, including whitespace, Dropbox and
+                OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also
+                available!
+            </p>
+            <div>
+                <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                transition duration-300 ease-in-out transform hover:scale-105">Try Taskey →</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Data section-->
+    <section class=" bg-white w-full flex justify-center items-center p-30 ">
+        <div
+            class=" grid  grid-cols-2  justify-between w-[90%] gap-8 mx-auto max-md:grid-cols-1 max-md:p-7 max-md:gap-7 ">
+            <div class="w-[100%] h-[100%]"><img src="./foto/image1.png"></div>
+            <div class="flex justify-between flex-col max-md:gap-7">
+                <h1 class="text-5xl font-bold text-black">100%
+                    <span style="background-image: url('./foto/title-underline.png')">your Data</span><br><br>
+                </h1>
+                <p class=" text-black text-lg">The app is open source and your notes are saved to an open format,
+                    so you'll always have access to them.
+                    Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access
+                    them.
+                </p><br>
+
+                <div>
+                    <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                 transition duration-300 ease-in-out transform hover:scale-105">read more → </button>
+                </div>
+            </div>
+
+        </div>
+        <!-- sponsors section -->
+    </section>
+
+    <section class="bg-white w-full ">
+
+        <div class=" flex justify-center  flex-col items-center  max-md:justify-center max-md:items-center">
+            <h1 class="text-6xl font-bold text-black">Our <span  style="background-image: url('./foto/title-underline.png');">Sponsors</span></h1>
+            </h1><br><br>
+
+
+            <div class="flex justify-between space-x-25   max-md:flex-col max-md:space-y-25">
+                <div class=""><img src="./foto/Apple.png"></div>
+                <div><img src="./foto/Microsoft.png"></div>
+                <div><img src="./foto/Slack.png"></div>
+                <div><img src="./foto/Google.png"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Work section-->
+    <section class="  bg-[#043771] flex justify-center items-center text-white p-20 mt-10 bg-no-repeat "
+        style="background-image:url('./foto/bg-header.png');">
+        <div
+            class="grid  grid-cols-2  justify-between w-[90%] gap-8 mx-auto p-30 max-md:grid-cols-1 max-md:p-7 max-md:gap-7  ">
+            <div class="w-[100%] h-[100%] "><img src="./foto/Apps.png"></div>
+            <div class=" flex justify-between flex-col max-md:gap-7 ">
+                <h2 class="text-3xl text-white font-bold">Work with Your Favourite Apps Using Whitespace</h2>
+                <p class="text-lg leading-relaxed text-white text-light">Whitespace teams up with your favourite
+                    software.
+                    Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.
+                </p>
+                <div>
+                    <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                transition duration-300 ease-in-out transform hover:scale-105">Read more → </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--testimonial section-->
+    <section class="py-36 text-center">
+        <div class="max-w-7xl mx-auto px-5">
+            <h2 class="text-6xl font-bold text-black mb-24">What Our Client <span
+                    style="background-image: url('./foto/title-underline.png')">Says:</span></h2>
+            <div class="grid grid-cols-3 max-md:flex max-md:overflow-x-scroll  gap-10 max-w-6xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div
+                    class="max-md:shrink-0 bg-white border border-[#043771] rounded-lg max-md:w-[400px] p-10 text-left transition duration-300 ease-in-out transform hover:scale-105">
+                    <div class="text-6xl text-blue-light mb-6"><img src="./foto/Quote-blue.png"></div>
+                    <p class="text-lg leading-relaxed text-[#043771] mb-8">Whitespace is designed as a collaboration
+                        tool for businesses that is a full project management solution.
+                        <br>-------------------------------------
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-[#043771] rounded-full"></div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Oberon Shaw, MCH</h4>
+                            <p class="text-black">Head of Talent Acquisition, North America</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 (Featured) -->
+                <div
+                    class="max-md:shrink-0 bg-[#4F9CF9] border text-white rounded-lg max-md:w-[400px] p-10 text-left transition duration-300 ease-in-out transform hover:scale-105">
+                    <div class="text-6xl text-white mb-6"><img src="./foto/Quote-white.png"></div>
+                    <p class="text-lg leading-relaxed mb-8">Whitespace is designed as a collaboration tool for
+                        businesses that is a full project management solution.
+                        <br>-------------------------------------
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-[#043771] rounded-full"></div>
+                        <div>
+                            <h4 class="font-bold">Oberon Shaw, MCH</h4>
+                            <p class="text-black">Head of Talent Acquisition, North America</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div
+                    class=" max-md:shrink-0 bg-[#4F9CF9] border text-white rounded-lg max-md:w-[400px] p-10 text-left transition duration-300 ease-in-out transform hover:scale-105">
+                    <div class="text-6xl text-white mb-6"><img src="./foto/Quote-white.png"></div>
+                    <p class="text-lg leading-relaxed mb-8">Whitespace is designed as a collaboration tool for
+                        businesses that is a full project management solution.
+                        <br>-------------------------------------
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-[#043771] rounded-full"></div>
+                        <div>
+                            <h4 class="font-bold">Oberon Shaw, MCH</h4>
+                            <p class="text-black">Head of Talent Acquisition, North America</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-[#043771] text-white py-36 text-center">
+        <div class="max-w-7xl mx-auto px-5 max-md:text-left">
+            <h2 class="text-4xl font-bold mb-8">Try Whitespace <br>today</h2>
+            <p class="text-2xl text-text-light mb-16">Get started for free.<br>Add your whole team as your needs grow.
+            </p>
+            <div>
+                <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                transition duration-300 ease-in-out transform hover:scale-105">Try Taskey →</button>
+            </div><br>
+            <h2 class="text-2xl text-text-light">One big team ? contact sales</h2><br>
+            <div class="flex justify-center items-center space-x-10 max-md:flex max-md:justify-start">
+                <div class="w-16 h-16 "><img src="./foto/apple-black-logo 2.png"></div>
+                <div class="w-16 h-16 "><img src="./foto/windows-logo 1.png"></div>
+                <div class="w-16 h-16 "><img src="./foto/android-logo 1.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#043771] text-white py-20 p-30 max-md:p-0 max-md:py-0">
+        <div class="max-w-7xl mx-auto px-5  ">
+            <div class="grid md:grid-cols-5 gap-16 mb-16 max-md:grid-cols-1   ">
+                <div>
+                    <div class="flex items-center text-3xl font-bold mb-4">
+                        <div class="w-full h-full bg-blue-light rounded mr-2"><img src="./foto/Logo.png"></div>
+
+                    </div>
+                    <p class="text-text-light mb-6">Whitespace was created for <br>the new ways we live and <br>work. We
+                        make a better <br>workspace around the world</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-8">Product</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Overview</a></li>
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Pricing</a></li>
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Customer stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-8">Resources</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Blog</a></li>
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Guides & tutorials</a></li>
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Help center</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-8">Company</h3>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">About us</a></li>
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Careers</a></li>
+                        <li><a href="#" class="text-text-light hover:text-[#FFE492]">Media kit</a></li>
+                    </ul>
+                </div>
+                <div class=" flex flex-col justify-between w-full h-full">
+                    <div class="justify-between items-center">
+                        <h1 class="text-3xl text-white font-bold  ">Try it Today </h1><br>
+                        <p class=" text-white">Get started for free. Add your <br> whole team as your needs grows.
+                        </p><br>
+                        <div>
+                            <button class="bg-[#4F9CF9] rounded-lg justify-center font-medium text-white px-4 py-2 
+                         transition duration-300 ease-in-out transform hover:scale-105">Start Today →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="pt-10 flex border-t border-[#FFE492] justify-between items-center w-full h-full max-md:p-0 max-md:py-0">
+                <div class="w-full flex items-center justify-between mb-4">
+                    <select class="bg-transparent border border-text-light rounded px-3 py-2 text-text-light">
+                        <option>English</option>
+                    </select>
+                    <p class="text-light">Terms & privacy</p>
+                    <p class="text-light">Security</p>
+                    <p class="text-light">Status</p>
+
+                    <p class="text-light ">©2025 Whitespace LLC.</p>
+
+                    <div class="flex justify-between gap-10 ">
+                        <img src="./foto/_x30_1._Facebook.png">
+                        <img src="./foto/Twitter.png">
+                        <img src="./foto/Linkedin.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
